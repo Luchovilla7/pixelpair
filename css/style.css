@@ -213,7 +213,7 @@ header{
         top: 100%;
         right: -100%;
         width: 270px;
-        height: 24vh;
+        height: 28vh;
         background: var(--main-color);
         display: flex;
         flex-direction: column;
@@ -223,7 +223,7 @@ header{
     }
 
     .navbar a{
-        font-size: 19px;
+        font-size: 27px;
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
@@ -261,11 +261,11 @@ header{
     }
 
     .home-content h3 {
-        font-size: 27px;
+        font-size: 32px;
     }
 
     .home-content h1 {
-        font-size: 38px;
+        font-size: 43px;
     }
 
     .home-img img {
