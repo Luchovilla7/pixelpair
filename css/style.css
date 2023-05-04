@@ -31,7 +31,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background: linear-gradient(165deg, var(--bg-color) 27.11%, var(--main-color) 100.99%);
+    background: linear-gradient(178deg, var(--bg-color) 27.11%, var(--main-color) 100.99%);
 }
 
 /* Encabezado */
