@@ -16,4 +16,4 @@ window.onload = setTimeout(function () {
 
 		loader.style.display = "none";
 
-	},3000)
+	},2800)
