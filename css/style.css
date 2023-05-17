@@ -31,7 +31,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background: linear-gradient(178deg, var(--bg-color) 27.11%, var(--main-color) 100.99%);
+    background: linear-gradient(172deg, var(--bg-color) 27.11%, var(--main-color) 100.99%);
 }
 
 /* Encabezado */
@@ -319,7 +319,38 @@ header{
 }
 
 /* Nosotros */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
 
+.sobre-nosotros {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.centrar-texto {
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Pixel';
+    color: var(--bg-color);
+}
+
+.sobre-nosotros .sobre-nosotros__imagen img {
+    width: 600px;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.7));
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+.sobre-nosotros__texto {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    font-family: 'Bai-m';
+}
 
 /* Preloader */
 #preloader {
@@ -447,7 +478,7 @@ header{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 270px;
+        width: 45%;
         height: 100vh;
         background: var(--main-color);
         display: flex;
@@ -487,6 +518,17 @@ header{
         justify-content: center;
         gap: 45px;
     }
+    .sobre-nosotros {
+        flex-direction: column;
+    }
+    .sobre-nosotros .sobre-nosotros__imagen img {
+        width: 100%;
+        animation: none;
+    }
+    
+    .sobre-nosotros .sobre-nosotros__texto {
+        font-size: 21px;
+    }
 
 }
 
@@ -510,4 +552,5 @@ header{
         width: 70vw;
         margin-top: 4rem;
     }
+
 }
