@@ -759,6 +759,14 @@ footer {
         margin-top: 4rem;
     }
 
+    .section-title {
+        font-size: 23px;
+    }
+
+    .centrar-texto {
+        font-size: 27px;
+    }
+
     .contact_info {
         display: none;
     }
