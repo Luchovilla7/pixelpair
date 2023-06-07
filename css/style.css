@@ -328,7 +328,7 @@ header{
 
 .sobre-nosotros {
     display: flex;
-    margin: 15px;
+    margin: auto;
     align-items: center;
 }
 
@@ -345,7 +345,7 @@ header{
 }
 
 .sobre-nosotros__texto {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
     font-family: 'Bai-m';
 }
@@ -551,6 +551,7 @@ form.form_contact input[type="button"]:hover{
 	cursor: pointer;
 }
 
+
 /* Pié de página/footer */
 
 footer {
@@ -670,9 +671,25 @@ footer {
         padding: 14px 2%;
         transition: all .2s ease;
     }
+
     .navbar a{
         padding: 5px 0;
         margin: 0px 20px;
+        color: var(--bg-color);
+    }
+
+    .contact_info {
+        display: none;
+    }
+
+    .form_wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    form.form_contact {
+        margin: 0 auto;
+        padding: 0;
     }
 }
 
@@ -684,13 +701,15 @@ footer {
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 45%;
+        width: 100%;
         height: 100vh;
         background: var(--main-color);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
         transition: all .50s ease;
+        padding-top: 15px;
     }
 
     .navbar a{
@@ -736,9 +755,24 @@ footer {
         font-size: 18px;
     }
 
+    .form_wrap {
+        width: 100%;
+        padding: 0;
+    }
+
+    form.form_contact {
+        margin: 0 auto;
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 768px){
+    
+    .navbar a {
+        font-size: 23px;
+    }
+
     .social {
         display: none;
     }
@@ -765,10 +799,6 @@ footer {
 
     .centrar-texto {
         font-size: 27px;
-    }
-
-    .contact_info {
-        display: none;
     }
 
     .form_wrap {

@@ -7,6 +7,19 @@ menu.onclick = () => {
     navbar.classList.toggle('open');
 }
 
+navbar.onclick = (event) => {
+    if (event.target.tagName === 'A') {
+        navbar.classList.remove('open');
+        resetMenuIcon()
+    }
+}
+
+function resetMenuIcon() {
+    if (menu.classList.contains('bx-x')) {
+        menu.classList.remove('bx-x');
+    }
+}
+
 //Preloader
 var loader = document.getElementById("preloader");
 
