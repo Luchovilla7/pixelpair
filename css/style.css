@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 /* Fuentes locales */
@@ -133,6 +134,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 .home-img img {
@@ -194,7 +196,7 @@ header{
     text-align: center;
     font-family: 'Pixel';
     font-size: 32px;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .services {
     display: flex;
@@ -333,7 +335,7 @@ header{
 }
 
 .sobre-nosotros .sobre-nosotros__imagen img {
-    width: 600px;
+    width: 560px;
     filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.7));
     animation: floatImage 4s ease-in-out infinite;
 }
@@ -398,7 +400,7 @@ header{
     margin-bottom: 60px;
 }
 
-.info_title span{
+.info_title p i{
     font-size: 100px;
     display: block;
     text-align: center;
@@ -420,16 +422,17 @@ header{
     margin-bottom: 10px;
 }
 
-.info_items p:nth-child(1) span{
+.info_items p:nth-child(1) i{
     font-size: 30px;
     margin-right: 10px;
 }
 
-.info_items p:nth-child(2) span{
-    font-size: 50px;
-    margin-right: 15px;
-    margin-left: 4px;
+.info_items p:nth-child(2) i,
+.info_items p:nth-child(3) i{
+    font-size: 30px;
+    margin-right: 7px;
 }
+
 
 
 /* Formulario de contacto*/
