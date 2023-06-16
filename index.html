@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Pixel Pair | Agencia de Diseño y Desarrollo Web</title>
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
@@ -40,11 +41,11 @@
 
     <!-- Servicios -->
     <div class="section-title" id="services">
-        <h2>¿QUÉ HACEMOS?</h2>
+        <h2 data-aos="zoom-in">¿QUÉ HACEMOS?</h2>
     </div>
     <section class="services">
         <div class="container">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="500">
                 <div class="imgBx">
                     <img src="./images/web.png" alt="">
                     <h3>Diseño y Desarrollo Web</h3>
@@ -53,7 +54,7 @@
                     <p>Nos encargamos en crear sitios web atractivos, funcionales y personalizados según tus necesidades. Utilizamos las últimas tecnologías y mejores prácticas para garantizar una experiencia de usuario excepcional.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
                 <div class="imgBx">
                     <img src="./images/seo.png" alt="">
                     <h3>Optimización SEO</h3>
@@ -62,7 +63,7 @@
                     <p>Te ayudamos a mejorar la visibilidad de tu sitio web en los motores de búsqueda como Google. Aumentamos tu tráfico orgánico y te ayudamos a alcanzar una posición destacada en tu nicho.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="1500">
                 <div class="imgBx">
                     <img src="./images/hosting.png" alt="">
                     <h3>Alojamiento Web</h3>
@@ -76,15 +77,15 @@
     <!-- Nosotros -->
     <section class="contenedor" id="about">
         <div class="section-title">
-            <h2>SOBRE NOSOTROS</h2>
+            <h2 data-aos="zoom-in">SOBRE NOSOTROS</h2>
         </div>
 
         <div class="sobre-nosotros">
             <div class="sobre-nosotros__imagen">
-                <img src="images/about.png" alt="imagen nosotros">
+                <img src="images/about.png" alt="imagen nosotros" data-aos="zoom-out">
             </div>
 
-            <div class="sobre-nosotros__texto">
+            <div class="sobre-nosotros__texto" data-aos="fade-up">
                 <p>Somos una agencia de diseño y desarrollo web con sede en Puerto Piray, Misiones y La Plata, Buenos Aires. Nos apasiona crear experiencias digitales excepcionales para nuestros clientes. Nos enorgullece ofrecer servicios profesionales y personalizados en cada proyecto que emprendemos.</p>
                 <p>Estamos listos para ayudarte a alcanzar tus metas en línea y llevar tu presencia digital al siguiente nivel. 🚀</p>
             </div>
@@ -93,15 +94,15 @@
 
     <!-- Contacto -->
     <div class="section-title" id="contact">
-        <h2>CONTÁCTANOS</h2>
+        <h2 data-aos="zoom-in">CONTÁCTANOS</h2>
     </div>
     <section class="contact-section">
-        <section class="form_wrap">
+        <section class="form_wrap" data-aos="flip-left">
 
             <section class="contact_info">
                 <section class="info_title">
                     <span class="fa fa-user-circle"></span>
-                    <h2>INFORMACION<br>DE CONTACTO</h2>
+                    <h2>INFORMACIÓN<br>DE CONTACTO</h2>
                 </section>
                 <section class="info_items">
                     <p><i class='bx bxl-instagram-alt'></i> @pixelpairagency</p>
@@ -158,7 +159,12 @@
             <div class="load"></div>
         </div>
     </div>
-    
+
+    <!-- script AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- script js -->
     <script src="./js/script.js"></script>
 </body>
